@@ -77,6 +77,7 @@ Safe logging enabled for internal test purposes (no PII)
 
 ### Demo link
 [Emergent AI MindLoad demo link here](https://stress-pulse-1.emergent.host/)
+[demo video tutorial](https://drive.google.com/file/d/1ql_y9BSoj-z40WsRtRK5j1FOkYTPqyPT/view?usp=drivesdk)
 
 ### Screenshots
 ![Graph screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/4f22437e4bbb62a2d65f6da7bb38b6723c4db333/Screenshot%202026-02-07%20173747.png)
