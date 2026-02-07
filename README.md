@@ -2,7 +2,7 @@
 MindLoad is a no-code / low-code study support prototype that helps students organize academic schedules and study resources in one website. The system uses structured data inputs like calendars or study guides and simple automated workflows to generate relevant study tips and reminders. 
 This project is an early-stage prototype focused on workflow design, data handling, and automation logic rather than custom backend development or advanced AI models.
 ## HOW TO RUN 
-1) Open the project in the platform workspace (Glide)
+1) Open the project in the platform workspace (Emergent)
 2) Navigate through the screens or workflow steps to see how schedules and study resources are organized.
 3) Upload example data files, like a student schedule CSV or a study tips document, to test how the system displays relevant information.
 4) Click on the buttons or interact with the workflow to see study reminders and suggested tips appear.
@@ -15,7 +15,7 @@ MindLoad uses rule-based and prompt-driven logic to analyze user input about wor
 MindLoad uses rule-based and prompt-driven logic to analyze user input about workload and stress, generating supportive burnout feedback.
 
 ### Data / API integration
-Inputs come from Glide AI forms. Workflow processes text input to give burnout insights. No-code integration is fully functional for demo purposes.
+Inputs come from Emergent AI. Workflow processes text input to give burnout insights. No-code integration is fully functional for demo purposes.
 
 ### Test questions / exam set
 Examples include:
@@ -29,12 +29,12 @@ Examples include:
 Initial testing shows the app can categorize burnout levels (low / moderate / high) and provide relevant feedback.
 
 ### Run instructions
-Open the MindLoad Glide demo link, enter your input, and check the burnout feedback.
+Open the MindLoad Emergent AI demo link, enter your input, and check the burnout feedback.
 
 ## Day 4 – Optimizing Integration & Application Evaluation
 
 ### Evaluation
-Test set is stored within Glide AI logic. Metrics considered: relevance, clarity, consistency, coverage.
+Test set is stored within Emergent AI logic. Metrics considered: relevance, clarity, consistency, coverage.
 
 ### Top failure modes
 - Very short or vague inputs produce generic feedback
@@ -76,14 +76,14 @@ Low-code workflow connects the UI to the app logic (rule-based / prompt-driven).
 Safe logging enabled for internal test purposes (no PII)
 
 ### Demo link
-[Glide AI MindLoad demo link here](https://1o4wgs.atoms.world/schedule)
+[Emergent AI MindLoad demo link here](https://stress-pulse-1.emergent.host/)
 
 ### Screenshots
-![Graph screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/67fea2a05319df330fc37335a8874b62c0ad04a8/Screenshot%202026-02-03%20201215.png)
-![chatbot interface](https://raw.githubusercontent.com/Neriah-tech/MindLoad/67fea2a05319df330fc37335a8874b62c0ad04a8/Screenshot%202026-02-03%20201258.png)
-![Input screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/67fea2a05319df330fc37335a8874b62c0ad04a8/Screenshot%202026-02-05%20194414.png)
-![process screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/67fea2a05319df330fc37335a8874b62c0ad04a8/Screenshot%202026-02-05%20194542.png)
-![Output screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/67fea2a05319df330fc37335a8874b62c0ad04a8/Screenshot%202026-02-05%20194702.png)
+![Graph screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/4f22437e4bbb62a2d65f6da7bb38b6723c4db333/Screenshot%202026-02-07%20173747.png)
+![chatbot interface](https://raw.githubusercontent.com/Neriah-tech/MindLoad/4f22437e4bbb62a2d65f6da7bb38b6723c4db333/Screenshot%202026-02-07%20174125.png)
+![Input screen](https://github.com/Neriah-tech/MindLoad/blob/main/Screenshot%202026-02-07%20172855.png?raw=true)
+![Study Tip screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/4f22437e4bbb62a2d65f6da7bb38b6723c4db333/Screenshot%202026-02-07%20174204.png)
+![Output screen](https://raw.githubusercontent.com/Neriah-tech/MindLoad/4f22437e4bbb62a2d65f6da7bb38b6723c4db333/Screenshot%202026-02-07%20173342.png)
 
 ### Known UX issues
 - Output can be generic for very short inputs
@@ -91,7 +91,7 @@ Safe logging enabled for internal test purposes (no PII)
 - Input/output distinction could be visually clearer
 
 ### Decisions
-- Used Glide AI for fast UI–logic integration
+- Used Emergent AI for fast UI–logic integration
 - Kept flow minimal for beginner-friendly demo
 
 ### Blockers
@@ -103,7 +103,7 @@ Safe logging enabled for internal test purposes (no PII)
 Checked empty or vague inputs; prompts users for clarification.
 
 ### Secrets handling
-No API keys or sensitive information in the repo; handled entirely in Glide AI workflow.
+No API keys or sensitive information in the repo; handled entirely in Emergent AI workflow.
 
 ### Rate limits / caching
 Lightweight processing avoids latency or rate-limit issues.
